@@ -31,8 +31,13 @@ In this project, we simulate the behavior and performance of different consensus
 
 The simulations are implemented using Python, a versatile and widely-used programming language. The following libraries are used:
 
-- NumPy: For numerical computations.
-- Matplotlib: For data visualization.
+- `hashlib`: For cryptographic hashing.
+- `time`: For time-related operations.
+- `collections.defaultdict`: For creating a dictionary with default values.
+- `random`: For generating random numbers.
+- `json`: For JSON serialization and deserialization.
+- `matplotlib` and `seaborn`: For data visualization using Matplotlib library.
+- `numpy`: For numerical operations.
 
 ## Simulation Instructions
 
@@ -41,4 +46,5 @@ To run the simulations, follow these steps:
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/consensus-simulations.git
+git clone https://github.com/aarafat27/Consensus-Algorithms-Simulation.git
+
